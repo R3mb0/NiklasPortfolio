@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(200, 200, 200);
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: table;
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(53, 172, 240);
+}
+
+header span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 60px;
+}
+
+header img {
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+  width: auto;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(146, 17, 223);
+}
+
+#wrapper#gallery {
+  background-color: #111203;
+}
+
+.wrapper.gallery img {
+  padding: 0 auto;
+  height: auto;
+  width: 200px;
+
+}
