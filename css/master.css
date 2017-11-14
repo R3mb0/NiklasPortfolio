@@ -7,6 +7,7 @@ html, body {
   background-color: rgb(200, 200, 200);
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -15,35 +16,33 @@ header {
   height: 100px;
   width: 100%;
   text-align: center;
-  background-color: rgb(53, 172, 240);
+  background-color: rgb(53, 172, 240, 0.5);
+  color: rgba(74, 74, 74, 1);
 }
 
 header span {
+  position: relative;
   display: table-cell;
   vertical-align: middle;
   font-size: 60px;
 }
 
-header img {
-  display: table-cell;
-  vertical-align: middle;
-  height: 60px;
-  width: auto;
-}
-
 #wrapper {
   width: 100%;
-  height: 100%;
   background-color: rgb(146, 17, 223);
 }
 
-#wrapper#gallery {
-  background-color: #111203;
+#wrapper div#gallery {
+  background-color: #b9bb9e;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
-.wrapper.gallery img {
-  padding: 0 auto;
+#wrapper div#gallery img {
   height: auto;
-  width: 200px;
-
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  transform: scale("2");
 }
